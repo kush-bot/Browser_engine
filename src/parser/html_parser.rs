@@ -94,6 +94,13 @@ impl Parser{
         assert_eq!(open_quotes,close_quotes);
         return value;
     }
+
+    fn parse_attributes(&mut self)->dom::AttrMap{
+        let mut attributes=HashMap::new();
+        loop{
+            self.conevd
+        }
+    }
 }
 
 
